@@ -4,23 +4,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./index.css">
+    <link rel="stylesheet" href="./index.css">
     <title>Registration Form</title>
 </head>
 <body>
-    <div class="registration-form">
+    <div class="container">
         <h1>Registration Form</h1>
-        <form>
-            <p>Full Name</p>
-            <input type="text" name="fullname" placeholder="Full Name">
-            <p>User Name</p>
-            <input type="text" name="usename" placeholder="User Name">
-            <p>Email:</p>
-            <input type="email" name="email" placeholder="Email">
-            <p>Password:</p>
-            <input type="password" name="password" placeholder="Password">
-            <button type="submit">Registration</button>
-        </form>
+        <div class="bottom-container">
+            <label class="label">Name</label>
+            <input type="text" placeholder="Name" class="input">
+        </div>
+        <div class="bottom-container">
+            <label class="label">Gender</label>
+            <div>
+                <input type="radio" id="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female">
+                <label for="female">Female</label>
+            </div>
+            <div class="bottom-container">
+                <label class="label">Hobbies</label>
+                <div>
+                    <input type="checkbox" id="cricket">
+                    <label for="cricket">cricket</label>
+                    <input type="checkbox" id="kabbadi">
+                    <label for="kabbadi">kabbadi</label>
+                </div>
+            </div>
+            <label>Countries</label>
+            <select>
+                <option>america</option>
+                <option>austrila</option>
+                <optio>india</optio>
+            </select>
+            <div class="bottom-container">
+            <label class="label">Email</label>
+            <input type="email" placeholder="example@123" class="input">
+            </div>
+            <div class="bottom-container">
+                <label class="label">Password</label>
+                <input type="password" placeholder="Password" class="input">
+            </div>
+            <div class="bottom-container">
+                <label class="label">Phone Number</label>
+                <input type="number" placeholder="phone" class="input">
+            </div>
+            <div class="bottom-container">
+                <label class="label">Message</label>
+                <textarea col="5" class="textarea"></textarea>
+            </div>
+            <div>
+                <button class="button">Submit</button>
+            </div>
     </div>
 </body>
 </html>

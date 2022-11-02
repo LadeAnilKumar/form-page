@@ -1,54 +1,33 @@
-* {
-    padding: 0;
-    margin: 0;
-    font-family: sans-serif;
-
-}
-
-body {
-    background-color: pink;
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
     background-size: cover;
-    color: #fff;
-}
-.registration-form {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 350px;
+    align-items: center;
+
 }
 
-.registration-form h1 {
-    font-size: 30px;
-    text-align: center;
-    text-transform: uppercase;
-    margin: 40px 0;
+.bottom-container{
+    display: flex;
+    flex-direction: column;
+
 }
 
-.registration-form p {
-    font-size: 20px;
-    margin: 15px 0;
+.input{
+    height: 20px;
+    width: 200px;
 }
 
-.registration-form input {
-    font-size: 16px;
-    padding: 15px 10px;
-    width: 100%;
-    border: 0;
-    border-radius: 5px;
-    outline: none;
+.label {
+    margin-bottom: 10px;
 }
 
-.registration-form button{
-    font-size: 18px;
-    font-weight: bold;
-    margin: 20px 0;
-    padding: 10px 15px;
-    width: 50%;
-    border-radius: 5px;
-    background-color: #fff;
+.textarea {
+    height: 100px;
+    width: 200px;
 }
 
-.registration-form button:hover {
-    color: red;
+.button{
+    margin-top: 10px;
+
 }
